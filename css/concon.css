@@ -1,0 +1,40 @@
+.wrap{ width:1280px; border:#CCC solid 1px; margin:auto; border:#CCC solid 1px;}
+.wrap:after{ content:""; display:block; clear:both;}
+header,section{ float:left;}
+
+
+
+section{ width:960px; padding:30px 30px;  box-shadow:#CCC -2px 0 3px;}
+section:after{ clear:both; display:block; content:"";}
+.top_menu{ width:100%; height:70px;}
+.left,.left li,.right li{ float:left;}
+.right{ float:right;}
+.left li{ font-size:13px; padding-right:10px; margin-right:10px;
+		 border-right:#999 solid 1px;}
+.left li a,.right li a{ color:#999;}
+.left li a:hover,.right li a:hover{ color:#333;}
+.right li{  font-size:13px; padding-right:10px; }
+#korea_C{ color:#F00; text-decoration:underline; }
+
+.box1 p{ color:#999; float:right; font-size:13px; margin-top:10px;}
+.box2{ width:100%; padding:30px 0 ;}
+.box2_left p{ font-size:14px; line-height:25px;padding:10px 0;}
+.box2_left{ border-bottom:#CCC solid 1px;padding:30px 0;}
+.box2 h2{ font-family: 'Nanum Myeongjo', serif; color:#333;
+		font-size:2.1em; font-weight:lighter; letter-spacing:-2px;
+		margin-bottom:20px;}
+
+/*top end*/	
+		
+		
+.bx1{ width:100%; border-bottom:#ccc solid 1px; padding:30px 0;}
+.bx1:after{content:""; display:block; clear:both;}
+.bx1 div{ width:50%; float:left;}
+.bx1 p{ height:140px;font-size:13px; line-height:25px;}
+.bx1 h4{ font-weight:bold; font-size:18px;}
+span{ color:#999; font-size:14px;}
+.bx1 h6{ padding:10px 0;}
+.img2 img{ margin-left:5px;}
+.sb>p{ height:100px;}
+.sb1>p{ height:80px;}
+.img2 span{ margin-left:5px;}

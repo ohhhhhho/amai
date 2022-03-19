@@ -1,0 +1,23 @@
+
+	
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*font-family: 'Nanum Gothic', serif;*/
+/*나눔고딕*/
+	
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+/* font-family: 'Nanum Myeongjo', serif; */
+/*나눔명조*/
+
+body,h1,h2,h3,h4,h5,h6,nav,ul,ol,li,dl,dd,dt,section,footer,img,header{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ vertical-align:middle; border:none;}
+a{ text-decoration:none;}
+body{ font-family: 'Nanum Gothic', serif;}
+
+
+::-webkit-scrollbar { width: 1px; height: 1px;  }
+::-webkit-scrollbar-button:start:decrement, 
+::-webkit-scrollbar-button:end:increment {display: 
+block; width: 1px;height: 1px; background: url() rgba(0,0,0,.05);}
+::-webkit-scrollbar-track { background: rgba(255,0,0,.1); }
+::-webkit-scrollbar-thumb { background: rgba(255,0,0,.1);  }

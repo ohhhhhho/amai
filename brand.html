@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+<title>아마이(甘い)</title>
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/brand.css">
+
+<!--[if lt IE 9]>    <script src="dist/html5shiv.js"></script><![endif]-->
+
+<script src="js/jquery-1.7.2.min.js"></script>
+
+<script>
+	$(function(){
+		n=0
+		
+		$('#wrap ul li').each(function(){
+            n++
+			$(this).css('left',(n-1)*50)
+			$(this).delay(300*n).animate({
+				'opacity':1,
+				'top':-100
+				});
+        	});
+			
+		
+	$('.mb_teb').click(function(){
+		$('#mb_teb1').animate({
+			left:0
+			},500)	
+		$('.black').fadeIn()
+			
+		});
+		
+		
+	$('.close').click(function(){
+		$('#mb_teb1').animate({
+			left:-400
+			},500);
+		$('.black').fadeOut()	
+		});	
+		});
+</script>
+</head>
+
+<body>
+	<div class="mb">
+    		<div class="mb_">
+                <h2><a href="index.html"><img src="img/logo/logo3.png" alt="main_logo"></a></h1>
+                <div class="mb_teb"><img src="img/mobile/teb.png" alt="teb"></div>
+            </div>
+             <div id="mb_teb1">
+             			<h3><a href="index.html"><img src="img/logo/logo.png" alt="logo"></a></h3>
+                        <h4 class="close"><img src="img/mobile/close.png" alt="close"></h4>
+                          <ul class="mb_me1">
+                                <li><a href="BREAD.html">BREAD</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li><a href="CAKE.html">CAKE</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li><a href="DESSERT.html">DESSERT</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li><a href="COFFEE.html">COFFEE</a>
+                                    <div class="line"></div>
+                                </li>
+                                <li><a href="BEVERAGE.html">BEVERAGE</a>
+                                    <div class="line"></div>
+                                </li>
+                          </ul>
+                          
+                          <ul class="mb_me2">
+                                <li><a href="brand.html">회사소개</a>
+                                    <div class="line2"></div>
+                                </li>
+                                <li><a href="contact.html">고객센터</a>
+                                    <div class="line2"></div>
+                                </li>
+                                <li><a href="EVENT.html">이벤트</a>
+                                    <div class="line2"></div>
+                                </li>
+                          </ul>
+                          <p><a href="https://www.facebook.com/"><img src="img/sns/facebook.png" alt="facebook"></a>
+                             <a href="https://www.instagram.com/"><img src="img/sns/instagram.png" alt="instagram"></a>
+                          </p>
+                    </div>
+    </div>
+	<header>
+        	<h1><a href="index.html"><img src="img/logo/logo_.png" alt="main_logo"></a></h1>
+            <nav>
+                  <ul class="menu1">
+                  		<li><a href="BREAD.html">BREAD</a>
+                        	<div class="line"></div>
+                        </li>
+                        <li><a href="CAKE.html">CAKE</a>
+                        	<div class="line"></div>
+                        </li>
+                        <li><a href="DESSERT.html">DESSERT</a>
+                        	<div class="line"></div>
+                        </li>
+                        <li><a href="COFFEE.html">COFFEE</a>
+                        	<div class="line"></div>
+                        </li>
+                        <li><a href="BEVERAGE.html">BEVERAGE</a>
+                        	<div class="line"></div>
+                        </li>
+                  </ul>
+                  
+                  <ul class="menu2">
+                  		<li><a href="brand.html">회사소개</a>
+                        	<div class="line2"></div>
+                            <div class="red_line"></div>
+                        </li>
+                        <li><a href="contact.html">고객센터</a>
+                        	<div class="line2"></div>
+                        </li>
+                        <li><a href="EVENT.html">이벤트</a>
+                        	<div class="line2"></div>
+                        </li>
+                  </ul>
+                  <p><a href="https://www.facebook.com/"><img src="img/sns/facebook.png" alt="facebook"></a>
+                  	 <a href="https://www.instagram.com/"><img src="img/sns/instagram.png" alt="instagram"></a>
+                  </p>
+            </nav>
+        </header>
+        
+        <section>
+        	<div class="black"></div>
+        	<article class="bra_1">
+            	<div class="top_logo">
+                    <div id="wrap">
+                        <ul>
+                            <li>A</li>
+                            <li>M</li>
+                            <li>A</li>
+                            <li>I</li>
+                            <li></li>
+                            <li>C</li>
+                            <li>A</li>
+                            <li>K</li>
+                            <li>E</li>
+                            <li></li>
+                            <li>C</li>
+                            <li>O</li>
+                            <li>M</li>
+                            <li>P</li>
+                            <li>A</li>
+                            <li>N</li>
+                            <li>Y</li>
+                        </ul>
+                    </div>
+                <h3>아마이(甘い)</h3>
+                <p>아마이는 음식을 먹고 달다라는 맛표현을 할때 씁니다.</p>
+                </div>
+                <div class="ma_bg">
+                
+                	<div class="white"></div>
+                    	<p>우리의 식단이 다양해진 만큼 취향도 섬세해졌습니다.<br>
+                          어디서도 먹을 수 있는 음식은 그만큼 어디에서나 흔하게 즐길 수 있습니다.<br>
+                          아마이는 매일 아침 신선한 프리미엄 우유와 달걀을 배송 받아 고객들에게 최고의<br>
+                          맛과 풍미를 즐기실수 있도록 노력하고 있습니다. <br>
+                          건강까지 생각하는 완벽한 홈메이드 프리미엄 디저트 아마이.<br>
+                          아마이의 케익은 아마이 전담 연구원을 통한 엄격한 품질 테스트를 거쳐 생산 <br>
+                          되어지며 자체 연구소를 통해 뛰어난 맛과 건강한 케익을 만들기 위해 항상 최선에<br>
+                          노력하고 있습니다.<br>
+                          아마이는 100% 홈메이드 스타일을 지향합니다.<br>
+                           </p>
+
+                    
+                </div>
+                <div class="tex">
+                	<ul>
+                    	<li>
+                        	<ul class="big">
+                            	<li>
+                        			<img src="img/logo/logo_.png" alt="logo" height="130px" width="150px">
+                            	</li>
+                            </ul>
+                        </li>
+                        <li>
+                        	<ul class="big te">
+                                <li class="bold">HOURS</li>
+                                <li>10:00 - 22:00</li>
+                                <li>(LO.21:30)</li>
+                            </ul>
+                        </li>
+                        <li>
+                        	<ul class="big te">
+                                <li class="bold">TEL &amp; FAX</li>
+                                <li>1588-0904</li>
+                                <li>(FAX.02-552-0904)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <address>서울시특별시 마포구 와우산로13길 49 (상수동 316-1)    SANGSUDONG 316-1, MAPO-GU, SEOUL, KOREA</address>
+                    <p>COPYRIGHT 2017 BY AMAI. ALL RIGHT RESERVED.</p>
+                </div>
+                
+            </article>
+            
+            <article class="map">
+            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.6416495803005!2d126.92001595826045!3d37.54838869495035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98d030150333%3A0xfa57a1e76d108be9!2z7ISc7Jq47Yq567OE7IucIOuniO2PrOq1rCDsmYDsmrDsgrDroZwxM-q4uCA0OS03!5e0!3m2!1sko!2skr!4v1502264271284" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </article>
+            
+        </section>
+</body>
+</html>

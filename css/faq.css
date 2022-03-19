@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+/*한나체  font-family: 'Hanna', serif;
+*/
+@media all and (min-width:320px) and (max-width:767px){
+.top_1{ width:100%;}
+.top{ width:100%;
+	  height:200px;
+	  background:url(../img/contact/header_kitchen.jpg) center center;
+	  background-size:cover;}
+
+/*top end*/
+article{ width:100%;}
+.bigfont{ width:275px;
+		  margin:auto;
+		  margin-bottom:-40px;}
+.bigfont ul{ width:100%;
+			 padding-top:50px;}
+.bigfont ul li{ width:90px;
+				height:30px;
+				text-align:center;
+				margin:auto;
+				line-height:30px;
+				border-top:#999 solid 1px;
+				border-bottom:#999 solid 1px;
+				border-left:#999 solid 1px;
+				float:left;}
+.bigfont ul li:first-child{ border-left:none;}
+.bigfont ul li a{ color:#999;
+				  font-weight:600;
+				  font-size:13px;}
+.bigfont ul li a:hover{ color:#900;}
+#red a{ color:#900;}
+
+/*menu bar end*/
+
+.faq{ width:100%;
+	  height:650px;}
+.faq div{ padding:10px;
+		  margin:10px auto;} 
+.faq div img{ margin-right:10px;}
+.box1{ width:280px;
+		  height:30px;
+		  border:#cCC solid 1px;
+		  font-weight:bold;
+		  line-height:30px;
+		  cursor:pointer;
+		  font-size:10px;}
+.box1:first-child{ margin-top:90px;}
+.box2{ width:280px;
+		height:150px;
+		border:#CCC solid 1px;
+		display:none;}
+.box2 ul li{ float:left;
+			 font-size:10px;
+			 line-height:20px;}
+.b_5,.b_6,.b_8,.b_10{ height:50px;}
+.b_7{ height:50px;}     
+ }
+@media all and (min-width:768px) and (max-width:1024px) {
+.top_1{ width:100%;}
+.top{ width:100%;
+	  height:300px;
+	  background:url(../img/contact/header_kitchen.jpg) center center;
+	  background-size:100% 300px;}
+
+/*top end*/
+article{ width:100%;}
+.bigfont{ width:550px;
+		  margin:auto;}
+.bigfont ul{ width:100%;
+			 padding-top:50px;}
+.bigfont ul li{ width:180px;
+				height:30px;
+				text-align:center;
+				margin:auto;
+				line-height:30px;
+				border-top:#999 solid 1px;
+				border-bottom:#999 solid 1px;
+				border-left:#999 solid 1px;
+				float:left;}
+.bigfont ul li:first-child{ border-left:none;}
+.bigfont ul li a{ color:#999;
+				  font-weight:600;
+				  font-size:13px;}
+.bigfont ul li a:hover{ color:#900;}
+#red a{ color:#900;}
+
+/*menu bar end*/
+
+.faq{ width:530px;
+	  height:850px;
+	  margin:auto;}
+.faq div{ padding:10px;} 
+.faq div img{ margin-right:20px;}
+.box1{ width:500px;
+		  height:30px;
+		  border:#cCC solid 1px;
+		  margin-top:30px;
+		  font-weight:bold;
+		  line-height:30px;
+		  cursor:pointer;}
+.box1:first-child{ margin-top:90px;}
+.box2{ width:500px;
+		height:120px;
+		border:#CCC solid 1px;
+		border-top:none;
+		display:none;}
+.box2 ul li{ float:left;
+			 font-size:14px;
+			 line-height:20px;}
+.b_5,.b_6,.b_8,.b_10{ height:60px;}
+.b_7{ height:50px;}     
+}
+@media all and (min-width:1025px) {
+.black,.mb{ display:none;}
+.top_1{ width:100%;}
+.top{ width:100%;
+	  height:350px;
+	  background:url(../img/contact/header_kitchen.jpg) center center;
+	  background-size:cover;}
+
+/*top end*/
+article{ width:80%;}
+.bigfont{ width:100%;
+		  margin-left:13%;
+		  margin:auto;
+		  }
+.bigfont ul{ width:87%;
+			 padding-top:100px;
+			 margin-left:462px;}
+.bigfont ul li{ width:320px;
+				height:50px;
+				text-align:center;
+				line-height:50px;
+				border-top:#999 solid 1px;
+				border-bottom:#999 solid 1px;
+				border-left:#999 solid 1px;
+				float:left;}
+.bigfont ul li:first-child{ border-left:none;}
+.bigfont ul li a{ color:#999;
+				  font-weight:600;}
+.bigfont ul li a:hover{ color:#900;}
+#red a{ color:#900;}
+
+/*menu bar end*/
+
+.faq{ width:80%;
+	  margin-left:220px;
+	  height:900px;}
+.faq div{ padding:10px;} 
+.faq div img{ margin-right:20px;}
+.box1{ width:900px;
+		  height:30px;
+		  margin-left:270px;
+		  border:#cCC solid 1px;
+		  margin-top:30px;
+		  font-weight:bold;
+		  line-height:30px;
+		  cursor:pointer;}
+.box1:first-child{ margin-top:90px;}
+.box2{ width:900px;
+		height:80px;
+		margin-left:270px;
+		border:#CCC solid 1px;
+		border-top:none;
+		display:none;}
+.box2 ul li{ float:left;
+			 font-size:14px;
+			 line-height:20px;}
+.b_5,.b_6,.b_8,.b_10{ height:30px;}
+.b_7{ height:50px;}     
+}
